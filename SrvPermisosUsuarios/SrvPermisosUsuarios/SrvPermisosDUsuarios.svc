@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SrvPermisosUsuarios.SrvPermisosDUsuarios" CodeBehind="SrvPermisosDUsuarios.svc.cs" %>

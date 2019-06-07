@@ -1,0 +1,10 @@
+C:\Users\nexuz\source\repos\WCF_FullDuplex_F\WcfServiceMostrarTablaPermisos\bin\WcfServiceMostrarTablaPermisos.dll.config
+C:\Users\nexuz\source\repos\WCF_FullDuplex_F\WcfServiceMostrarTablaPermisos\bin\WcfServiceMostrarTablaPermisos.dll
+C:\Users\nexuz\source\repos\WCF_FullDuplex_F\WcfServiceMostrarTablaPermisos\bin\WcfServiceMostrarTablaPermisos.pdb
+C:\Users\nexuz\source\repos\WCF_FullDuplex_F\WcfServiceMostrarTablaPermisos\obj\Debug\WcfServiceMostrarTablaPermisos.csproj.CoreCompileInputs.cache
+C:\Users\nexuz\source\repos\WCF_FullDuplex_F\WcfServiceMostrarTablaPermisos\obj\Debug\WcfServiceMostrarTablaPermisos.dll
+C:\Users\nexuz\source\repos\WCF_FullDuplex_F\WcfServiceMostrarTablaPermisos\obj\Debug\WcfServiceMostrarTablaPermisos.pdb
+C:\Users\nexuz\source\repos\WCF_FullDuplex_F\WcfServiceMostrarTablaPermisos\obj\Debug\WcfServiceMostrarTablaPermisos.csprojAssemblyReference.cache
+C:\Users\nexuz\source\repos\WCF_FullDuplex_F\WcfServiceMostrarTablaPermisos\bin\Newtonsoft.Json.dll
+C:\Users\nexuz\source\repos\WCF_FullDuplex_F\WcfServiceMostrarTablaPermisos\bin\Newtonsoft.Json.xml
+C:\Users\nexuz\source\repos\WCF_FullDuplex_F\WcfServiceMostrarTablaPermisos\obj\Debug\WcfServiceMostrarTablaPermisos.csproj.CopyComplete

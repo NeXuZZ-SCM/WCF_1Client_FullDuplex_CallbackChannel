@@ -1,0 +1,10 @@
+C:\Users\nexuz\source\repos\SrvPermisosUsuarios\SrvPermisosUsuarios\bin\SrvPermisosUsuarios.dll.config
+C:\Users\nexuz\source\repos\SrvPermisosUsuarios\SrvPermisosUsuarios\bin\SrvPermisosUsuarios.dll
+C:\Users\nexuz\source\repos\SrvPermisosUsuarios\SrvPermisosUsuarios\bin\SrvPermisosUsuarios.pdb
+C:\Users\nexuz\source\repos\SrvPermisosUsuarios\SrvPermisosUsuarios\obj\Debug\SrvPermisosUsuarios.csprojAssemblyReference.cache
+C:\Users\nexuz\source\repos\SrvPermisosUsuarios\SrvPermisosUsuarios\obj\Debug\SrvPermisosUsuarios.csproj.CoreCompileInputs.cache
+C:\Users\nexuz\source\repos\SrvPermisosUsuarios\SrvPermisosUsuarios\obj\Debug\SrvPermisosUsuarios.dll
+C:\Users\nexuz\source\repos\SrvPermisosUsuarios\SrvPermisosUsuarios\obj\Debug\SrvPermisosUsuarios.pdb
+C:\Users\nexuz\source\repos\SrvPermisosUsuarios\SrvPermisosUsuarios\bin\Newtonsoft.Json.dll
+C:\Users\nexuz\source\repos\SrvPermisosUsuarios\SrvPermisosUsuarios\bin\Newtonsoft.Json.xml
+C:\Users\nexuz\source\repos\SrvPermisosUsuarios\SrvPermisosUsuarios\obj\Debug\SrvPermisosUsuarios.csproj.CopyComplete
