@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CompletarchklistBoxPermisos">
+        <s:complexType />
+      </s:element>
+      <s:element name="CompletarchklistBoxPermisosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CompletarchklistBoxPermisosResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultarChequeados">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultarChequeadosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultarChequeadosResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransaccionAB">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="permisos" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="idUsuario" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransaccionABResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CompletarchklistBoxPermisosSoapIn">
+    <wsdl:part name="parameters" element="tns:CompletarchklistBoxPermisos" />
+  </wsdl:message>
+  <wsdl:message name="CompletarchklistBoxPermisosSoapOut">
+    <wsdl:part name="parameters" element="tns:CompletarchklistBoxPermisosResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarChequeadosSoapIn">
+    <wsdl:part name="parameters" element="tns:ConsultarChequeados" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarChequeadosSoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultarChequeadosResponse" />
+  </wsdl:message>
+  <wsdl:message name="TransaccionABSoapIn">
+    <wsdl:part name="parameters" element="tns:TransaccionAB" />
+  </wsdl:message>
+  <wsdl:message name="TransaccionABSoapOut">
+    <wsdl:part name="parameters" element="tns:TransaccionABResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="CompletarchklistBoxPermisos">
+      <wsdl:input message="tns:CompletarchklistBoxPermisosSoapIn" />
+      <wsdl:output message="tns:CompletarchklistBoxPermisosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarChequeados">
+      <wsdl:input message="tns:ConsultarChequeadosSoapIn" />
+      <wsdl:output message="tns:ConsultarChequeadosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TransaccionAB">
+      <wsdl:input message="tns:TransaccionABSoapIn" />
+      <wsdl:output message="tns:TransaccionABSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CompletarchklistBoxPermisos">
+      <soap:operation soapAction="http://tempuri.org/CompletarchklistBoxPermisos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarChequeados">
+      <soap:operation soapAction="http://tempuri.org/ConsultarChequeados" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransaccionAB">
+      <soap:operation soapAction="http://tempuri.org/TransaccionAB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CompletarchklistBoxPermisos">
+      <soap12:operation soapAction="http://tempuri.org/CompletarchklistBoxPermisos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarChequeados">
+      <soap12:operation soapAction="http://tempuri.org/ConsultarChequeados" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransaccionAB">
+      <soap12:operation soapAction="http://tempuri.org/TransaccionAB" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="http://localhost/Lab0TestWS/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="http://localhost/Lab0TestWS/WebService1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
